@@ -4,6 +4,8 @@
 
 This python tool helps you to keep the A-Record of your DNS zone up to date. The only thing you have to do is to schedule this script with a cronjob or similar. Have fun! ;-)
 
+![Discord bot message](images/discord_bot_msg.png)
+
 ## How it work's
 
 1. Get the current WAN ip address
