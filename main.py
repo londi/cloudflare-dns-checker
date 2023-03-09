@@ -2,11 +2,14 @@ import CloudFlare
 from requests import get
 import requests
 
-EMAIL = ''
-KEY = ''
-ZONE_NAME = ''
-DISCORD_URL = ''
-CLOUDFLARE_DNS_LINK = ''
+# Cloudflare vars
+EMAIL = '' # Your cloudflare email address
+KEY = '' # Your global API Key: https://dash.cloudflare.com/profile/api-tokens
+ZONE_NAME = '' # i.e. your website name
+CLOUDFLARE_DNS_LINK = '' # is only used for your discord message to let you quickly open your dns settings if something went wront
+
+# Discord vars
+DISCORD_URL = '' # Webhook url of your discord channel
 
 class CloudflareDnsChecker:
 
